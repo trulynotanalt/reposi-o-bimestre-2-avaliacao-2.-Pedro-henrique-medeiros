@@ -27,3 +27,13 @@ Acesse `http://127.0.0.1:5000`.
 ## Observação
 
 Não substitua a aplicação por outro projeto. A tarefa é adaptar esta base para autenticação com `session`, vinculando cada leitura ao usuário logado.
+
+
+
+
+
+### 1 para fazer a separação das funcionalidades e manter o código limpo e modularizado
+
+### 2 por meio do id do usuario que é enviado a sessão
+
+### 3 impedem o acesso através da verificação do id do usuario que loga com o id dos livros e da sessão de cada usuario, ou seja, se 1 usuario tem id 2, a sessão guarda esse id 2 e impede que livros da sessao com id 2 sejam acessados ou modificados por sessoes com ids diferentes
